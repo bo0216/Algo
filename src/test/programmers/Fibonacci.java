@@ -2,27 +2,19 @@ package test.programmers;
 
 public class Fibonacci {
 	static public int solution(int n) {
-	      int answer = 0;
-	      if(n>2) {
-	    	  answer = f(n)%1234567;
-	      }
-	      return answer;
-	}
-	
-	static public int f(int n) {
-		if(n==0) {
-			return 0;
+		int[] f = new int[n + 1];
+		f[0] = 0;
+		f[1] = 1;
+		for (int i = 2; i <= n; i++) {
+			f[i] = (f[i - 1] + f[i - 2]) % 1234567;
 		}
-		if(n==1) {
-			return 1;
-		}
-		return f(n-1)+f(n-2);
-		
+
+		return f[n];
 	}
-	
+
 	public static void main(String[] args) {
-		int n = 5;
-		
+		int n = 3;
+
 		int a = solution(n);
 		System.out.println(a);
 	}
