@@ -18,7 +18,7 @@ public class Naturalnumber_reverse {
 			  answer[i] = Integer.parseInt(stringAnswer[i]);
 			  System.out.println(answer[i]);
 		  }	     
-		  
+		 
 	      return answer;	      
 	  }
 

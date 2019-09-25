@@ -13,6 +13,7 @@ public class Hide_phoneNumber {
 		System.out.print(answer);
 		return answer;
 	*/
+		//간결하게  
 		 char[] ch = phone_number.toCharArray();
 	     for(int i = 0; i < ch.length - 4; i ++){
 	         ch[i] = '*';

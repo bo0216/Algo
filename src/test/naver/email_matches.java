@@ -6,7 +6,7 @@ public class email_matches {
 	static public int solution(String[] emails) {
         int answer=0;
         String pattern = "^[a-z.]+@[a-z]+\\.+(com||org||net)+$";
-	
+        //정규식 
         for(int i=0; i<emails.length; i++) {
         	
         	if(Pattern.matches(pattern, emails[i])) {
