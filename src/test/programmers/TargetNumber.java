@@ -1,6 +1,5 @@
 package test.programmers;
 
-
 public class TargetNumber {
 	static public int solution(int[] numbers, int target) {
         int answer = 0;
