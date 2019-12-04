@@ -13,7 +13,7 @@ public class TargetNumber {
 			if(sum == target) 
 				return 1;
 			return 0;
-		}//
+		}
 		return dfs(numbers, node+1, sum+numbers[node], target)
 				+ dfs(numbers, node+1, sum-numbers[node], target);
 	}
