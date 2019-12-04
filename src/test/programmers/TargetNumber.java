@@ -21,8 +21,8 @@ public class TargetNumber {
 		int[] numbers = {1,1,1,1,1};
 		int target = 5;
 		
-		int s = solution(numbers,target);
-		System.out.println(s);
+		int solution = solution(numbers,target);
+		System.out.println(solution);
 	}
 
 }
