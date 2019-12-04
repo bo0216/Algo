@@ -18,7 +18,7 @@ public class TargetNumber {
 	}
 	
 	public static void main(String[] args) {
-		int[] numbers = {2,3,1};
+		int[] numbers = {1,1,1,1,1};
 		int target = 5;
 		
 		int s = solution(numbers,target);
