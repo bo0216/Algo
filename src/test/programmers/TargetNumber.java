@@ -1,5 +1,5 @@
 package test.programmers;
-import java.util.*;
+
 
 public class TargetNumber {
 	static public int solution(int[] numbers, int target) {
