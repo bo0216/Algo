@@ -19,7 +19,6 @@ public class FunctionDevelopment {
         		days++;
         		
         	}
-        	//System.out.println("days:"+days);
         	queue.add(days);
         }
         
