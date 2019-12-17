@@ -9,6 +9,7 @@ public class WinterCoding1 {
 			return 0;
 		}else {
 			long g = GCD(w,h);
+			//g*((w/g)+(h/g)-1) = w+h-g;
 			answer = w*h - (w+h-g);
 			
 			return answer;
